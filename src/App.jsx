@@ -10,7 +10,7 @@ import { ContactPage } from './pages/ContactPage.jsx';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/forestFireUK">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
